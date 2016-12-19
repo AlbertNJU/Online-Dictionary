@@ -44,6 +44,8 @@ public class MainData {
 	public static JLabel wordNameLabel;
 	public static JLabel wordCardLabel;
 	public static JLabel emailSysLabel;
+	public static JLabel emailRefreshLabel;
+	
 	
 	/* register frame data */
 	public static JButton registerCancelButton;
@@ -115,12 +117,8 @@ public class MainData {
 	/* --------------- SEARCH DATA-STRUCTURE --------------*/
 	
 	public static ArrayList<WordCardInfo> wordCardList;
-	public static BufferedImage snap;
+	public static byte[] snap;
 	public static Vector<String> onlineUsers;
-    public static String searchWord;
-//    public static String searchUserIDtoServer;
-//    public static String searchWordtoServer;
-//    public static String addUsertoServer;
-//    public static String addSearchWebtoServer;
-//    public static String delSearchWebtoServer;
+        public static String searchWord;
+
 }
